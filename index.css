@@ -46,8 +46,13 @@ body{
     background-color: hsl(300, 43%, 22%);
     color:hsl(302, 27%, 82%);
     padding: 30px;
-    margin: 10px 40px;
+    margin: 20px 40px;
     border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    
+}
+.profile-section:hover{
+    transform: scale(1.1);
 }
 .profile-section p{
     line-height: 1.5;
@@ -137,6 +142,9 @@ body{
     margin: 10px 20px;
     border-radius: 10px;
     position: relative;
+}
+    .profile-section:hover{
+    transform: scale(1.1);
 }
 .colton-profile{
     top:0px;
