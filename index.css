@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Spartan', sans-serif;;
+}
+.box-1{
+    text-align: center;
+    border: 1px solid black;
+    border: none;
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+}
+.box-1 h1{
+    color: hsl(300, 43%, 22%);
+    padding: 50px 0px 20px 0px;
+    font-weight: 700;
+
+}
+.box-1 h4{
+    color:hsl(303, 10%, 53%);
+    padding: 10px 0px ;
+    font-weight: 400;
+}
+.rating-box{
+    border: 1px solid transparent;
+    margin: 20px 40px;
+    padding: 10px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+.rating-box h4{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+
+}
+.box-2{
+    border: 1px solid black;
+    border: none;
+    background-image: url(./images/bg-pattern-bottom-mobile.svg);
+}
+.profile-section{
+    border: 1px solid black;
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(302, 27%, 82%);
+    padding: 30px;
+    margin: 10px 40px;
+    border-radius: 20px;
+}
+.profile-section p{
+    line-height: 1.5;
+    padding: 40px 0px 20px 0px;
+}
+.profilename-img{
+    display: flex;
+    align-items: center;
+}
+.profilename-img img{
+    border-radius: 50%;
+    width: 50px;
+}
+.profilename-img h4{
+    padding-left: 20px;
+    color: white;
+}
+.verified{
+    color: hsl(333, 80%, 67%);
+}
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1440px) {
+    .box-1{
+    text-align: justify;
+    border: 1px solid black;
+    border: none;
+    display: flex;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: space-around;
+}
+.box-1 h1{
+    color: hsl(300, 43%, 22%);
+    padding: 50px 0px 20px 0px;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.rating-box{
+    border: 1px solid transparent;
+    margin: 20px 40px;
+    padding: 10px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.rating-box h4{
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    padding-left: 20px;
+
+}
+.rating-1{
+    right: 150px;
+}
+.rating-2{
+    right: 90px;
+}
+.rating-3{
+    right: 0px;
+}
+.box-2{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    margin: 50px 150px 80px 120px ;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+}
+.profile-section{
+    border: 1px solid black;
+    background-color: hsl(300, 43%, 22%);
+    color:hsl(302, 27%, 82%);
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.colton-profile{
+    top:0px;
+}
+.irene-profile{
+    top:40px;
+}
+.anne-profile{
+    top:80px;
+}
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+}
+}
+
